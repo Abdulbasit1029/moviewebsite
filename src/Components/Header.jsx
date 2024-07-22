@@ -11,7 +11,7 @@ import DarkModeSwitch from './DarkModeSwitch';
 
 export default function Header() {
   return (
-    <div className='flex  justify-between max-w-6xl mx-auto pt-4 '>
+    <div className='flex  justify-between max-w-6xl mx-auto pt-8'>
         <div className='flex gap-4 text-center '>
 <Menuitem title="Home" address="/" Icon={FaHome}/>
 <Menuitem title="About" address="/about" Icon={IoMdInformationCircle}/>
